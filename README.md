@@ -37,7 +37,7 @@ This Java console application is designed to fulfill the core functionalities re
 
 ### 1. Clone the repository:
 ```bash
-git clone [repository-url]
+git clone https://github.com/viktory-q/Gehtsoft-Entrance-Test
 ```
 
 ### 2. Compile the source files:
