@@ -1,4 +1,4 @@
-```markdown
+
 # Gehtsoft Training Program Entrance Test Solution 
 
 ## Project Description
