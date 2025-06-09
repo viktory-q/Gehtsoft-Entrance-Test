@@ -29,7 +29,6 @@ This Java console application is designed to fulfill the core functionalities re
 
 ## Requirements 
 - **Java 8** or higher
-- **Maven** (optional)
 
 ---
 
