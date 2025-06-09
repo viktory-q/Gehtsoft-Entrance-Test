@@ -38,13 +38,22 @@ This Java console application is designed to fulfill the core functionalities re
 ```bash
 git clone https://github.com/viktory-q/Gehtsoft-Entrance-Test
 ```
+### 2. Navigate into the project directory
+bash:
+```bash
+cd Gehtsoft-Entrance-Test
+```
 
-### 2. Compile the source files:
+### 3. Compile the source files:
 ```bash
 javac *.java
 ```
+### cmd.exe:
+```bash
+javac Main.java CaesarCipher.java ExpressionEvaluator.java
+```
 
-### 3. Run the application:
+### 4. Run the application:
 ```bash
 java Main
 ```
