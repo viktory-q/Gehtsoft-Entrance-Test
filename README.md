@@ -39,7 +39,6 @@ This Java console application is designed to fulfill the core functionalities re
 git clone https://github.com/viktory-q/Gehtsoft-Entrance-Test
 ```
 ### 2. Navigate into the project directory
-bash:
 ```bash
 cd Gehtsoft-Entrance-Test
 ```
