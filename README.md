@@ -1,36 +1,80 @@
-# Gehtsoft-Entrance-Test
-Project Description
+```markdown
+# Gehtsoft Training Program Entrance Test Solution 
 
-This Java console application implements two functionalities as per the Gehtsoft Training Program entrance test requirements:
+## Project Description
+This Java console application is designed to fulfill the core functionalities required for the **Gehtsoft Training Program** admission. It provides solutions for two main challenges:
+
+1. **Caesar Cipher**: A classic encryption algorithm with support for both English and Russian alphabets.
+2. **Arithmetic Expression Evaluator**: A tool to evaluate arithmetic expressions, supporting basic operations and parentheses.
+
+---
+
+## Features 
+
+### Caesar Cipher 
+- **Supports both English (26 letters) and Russian (33 letters) alphabets** 🇬🇧🇷🇺
+- **Preserves letter case and non-alphabetic characters** (e.g., spaces, punctuation)
+- **Handles positive/negative shift values** with proper wrap-around (encryption and decryption)
+- **File input/output functionality** for reading/writing encrypted/decrypted text
+- **Encryption & Decryption** support with variable shift values
+
+### Arithmetic Expression Evaluator 
+- **Supports basic operations**: `+`, `-`, `*`, `/`
+- **Handles nested parentheses** for complex expressions
+- **Follows PEMDAS/BODMAS** order of operations (Parentheses, Exponents, Multiplication, Division, Addition, Subtraction)
+- **Supports decimal and negative numbers**
+- **Input validation and error handling** to ensure proper calculation
+
+---
+
+## Requirements 
+- **Java 8** or higher
+- **Maven** (optional)
+
+---
+
+## Installation & Execution 
+
+### 1. Clone the repository:
+```bash
+git clone [repository-url]
+```
+
+### 2. Compile the source files:
+```bash
+javac *.java
+```
+
+### 3. Run the application:
+```bash
+java Main
+```
+
+---
+
+## Usage Examples 
+
+### Caesar Cipher Encryption 
+```text
+Enter your choice: 1
+Enter text to encrypt: Hello World
+Enter shift value: 3
+Result: Khoor Zruog
+```
+
+### Arithmetic Expression Evaluation 
+```text
+Enter your choice: 3
+Enter arithmetic expression: (10 + 5) / 3
+Result: 5.0
+```
+
+---
+
+## Project Structure 
+- `Main.java`: Entry point with menu system
+- `CaesarCipher.java`: Implements the Caesar cipher encryption and decryption logic
+- `ArithmeticEvaluator.java`: Handles the parsing and evaluation of arithmetic expressions
+- `FileUtils.java`: Manages file input/output operations for text encryption/decryption
 
 
-
-
-
-Caesar Cipher: Encrypts and decrypts text in English and Russian using the Caesar Cipher algorithm.
-
-
-
-Arithmetic Expression Evaluator: Parses and evaluates arithmetic expressions with support for basic operations, parentheses, decimal numbers, and negative numbers.
-
-How to Compile and Run
-
-Prerequisites
-
-
-
-
-
-Java Development Kit (JDK) 8 or higher
-
-
-
-Command-line interface (terminal or command prompt)
-
-Steps
-
-
-
-
-
-Clone the repository:
